@@ -62,7 +62,7 @@
 	--textdarker: 			64,61,82;			/*	Text Color 5/HighlightMed		-	default:	114,118,125		-	hex:	#72767d		*/
 	--textdarkest: 			33,32,46;			/*	Text Color 6/HighlightLow		-	default:	79,84,92		-	hex:	#4f545c		*/
 	
-	--backgroundcode: 		30,30,30;			/*	Background Code		-	default:	60,62,79		-	hex:	#3c3e4f		*/
+	--backgroundcode: 		25,23,36;			/*	Background Code/Base		-	default:	60,62,79		-	hex:	#3c3e4f		*/
 	--backgroundaccent: 	196,167,231;			/*	Background Accent/Iris	-	default:	64,68,75		-	hex:	#40444b		*/
 	--backgroundprimary: 		25,23,36;			/*	Background 1/Base		-	default:	54,57,63		-	hex:	#36393f		*/
 	--backgroundsecondary: 		31,29,46;			/*	Background 2/Surface		-	default:	47,49,54		-	hex:	#2f3136		*/
