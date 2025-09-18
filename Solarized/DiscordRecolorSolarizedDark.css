@@ -1,0 +1,72 @@
+/**
+ * @name DiscordRecolorSolarizedDark
+ * @description Allows you to customize Discord's native Color Scheme
+ * @author DevilBro
+ * @version 1.0.0
+ * @authorId 278543574059057154
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+ * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.theme.css
+ *
+ * @var checkbox			settingsicons_s			"User Settings Icons"					1
+ * @var text				font_s				"General Font"						"gg sans", "Noto Sans"
+ * @var text				accentcolor_s			"Blurple Color: [default] = 88, 101, 242"		88, 101, 242
+ * @var text				accentcolor2_s			"Boost Pink Color: [default] = 255, 115, 250"		255, 115, 250
+ * @var text				linkcolor_s			"Link Color: [default] = 0, 176, 244"			0, 176, 244
+ * @var text				mentioncolor_s			"Mentioned Color: [default] = 250, 166, 26"		250, 166, 26
+ * @var text				successcolor_s			"Success Color: [default] = 59, 165, 92"		59, 165, 92
+ * @var text				warningcolor_s			"Warning Color: [default] = 250, 166, 26"		250, 166, 26
+ * @var text				dangercolor_s			"Danger Color: [default] = 237, 66, 69"			237, 66, 69
+ * @var text				textbrightest_s			"Text Color 1: [default] = 255, 255, 255"		255, 255, 255
+ * @var text				textbrighter_s			"Text Color 2: [default] = 220, 221, 222"		222, 222, 222
+ * @var text				textbright_s			"Text Color 3: [default] = 185, 187, 190"		185, 185, 185
+ * @var text				textdark_s			"Text Color 4: [default] = 142, 146, 151"		140, 140, 140
+ * @var text				textdarker_s			"Text Color 5: [default] = 114, 118, 125"		115, 115, 115
+ * @var text				textdarkest_s			"Text Color 6: [default] = 79, 84, 92"			80, 80, 80
+ * @var text				backgroundcode_s		"Background Code: [default] = 60, 62, 79"		50, 50, 50
+ * @var text				backgroundaccent_s		"Background Accent: [default] = 64, 68, 75"		50, 50, 50
+ * @var text				backgroundprimary_s		"Background 1: [default] = 54, 57, 63"			30, 30, 30
+ * @var text				backgroundsecondary_s		"Background 2: [default] = 47, 49, 54"			20, 20, 20
+ * @var text				backgroundsecondaryalt_s	"Background 3: [default] = 41, 43, 47"			15, 15, 15
+ * @var text				backgroundtertiary_s		"Background 4: [default] = 32, 34, 37"			10, 10, 10
+ * @var text				backgroundfloating_s		"Background Elevated: [default] = 24, 25, 28"		0, 0, 0
+ */
+
+/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+
+:root {
+	--settingsicons:		1;				/*	Use Settings Icons in User Settings: 1 = yes, 0 = no							*/
+	--font:				"IBM Plex Sans", "IBM Plex Mono";		/*	General Font												*/
+	
+	--accentcolor: 			70,149,247;			/*	Blurple/Blue			-	default:	88,101,242		-	hex:	#5865f2		*/
+	--accentcolor2: 		242,117,190;			/*	Boostpink/Magenta		-	default:	255,115,250		-	hex:	#ff73fa		*/
+	--linkcolor: 			70,149,247;			/*	Link Color/Blue		-	default:	0,176,244		-	hex:	#00b0f4		*/
+	--mentioncolor: 		219,179,45;			/*	Highlight Color/Yellow		-	default:	250,166,26		-	hex:	#faa61a		*/
+	--successcolor: 		117,185,56;			/*	Success Color/Green		-	default:	59,165,92		-	hex:	#3ba55c		*/
+	--warningcolor: 		173,137,0;			/*	Warning Color/Yellow		-	default:	250,166,26		-	hex:	#faa61a		*/
+	--dangercolor:  		250,87,80;			/*	Danger Color/Red		-	default:	237,66,69		-	hex:	#ed4245		*/
+	
+	--framecolor:  			202,216,217,0.121;		/*	App Frame Color/fg_1		-	default:	151,151,159,0.121	-	hex:	#97979f1f	*/
+	
+	--textbrightest: 		173,188,188;			/*	Text Color 1/fg_0		-	default:	255,255,255		-	hex:	#ffffff		*/
+	--textbrighter: 		173,188,188;			/*	Text Color 2/fg_0		-	default:	220,221,222		-	hex:	#dcddde		*/
+	--textbright: 			114,137,143;			/*	Text Color 3/dim_0		-	default:	185,187,190		-	hex:	#b9bbbe		*/
+	--textdark: 			114,137,143;			/*	Text Color 4/dim_0		-	default:	142,146,151		-	hex:	#8e9297		*/
+	--textdarker: 			202,216,217;			/*	Text Color 5/fg_1		-	default:	114,118,125		-	hex:	#72767d		*/
+	--textdarkest: 			202,216,217;			/*	Text Color 6/fg_1		-	default:	79,84,92		-	hex:	#4f545c		*/
+	
+	--backgroundcode: 		16,60,72;			/*	Background Code/bg_0		-	default:	60,62,79		-	hex:	#3c3e4f		*/
+	--backgroundaccent: 	70,149,247;			/*	Background Accent/Blue	-	default:	64,68,75		-	hex:	#40444b		*/
+	--backgroundprimary: 		16,60,72;			/*	Background 1/bg_0		-	default:	54,57,63		-	hex:	#36393f		*/
+	--backgroundsecondary: 		16,60,72;			/*	Background 2/bg_0		-	default:	47,49,54		-	hex:	#2f3136		*/
+	--backgroundsecondaryalt: 	16,60,72;			/*	Background 3/bg_0		-	default:	41,43,47		-	hex:	#292b2f		*/
+	--backgroundtertiary: 		16,60,72;			/*	Background 4/bg_0		-	default:	32,34,37		-	hex:	#202225		*/
+	--backgroundfloating: 		0,0,0;				/*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c		*/
+}
