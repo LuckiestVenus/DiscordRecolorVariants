@@ -67,7 +67,7 @@
 	--backgroundprimary: 		251,243,219;			/*	Background 1/bg_0		-	default:	54,57,63		-	hex:	#36393f		*/
 	--backgroundsecondary: 		251,243,219;			/*	Background 2/bg_0		-	default:	47,49,54		-	hex:	#2f3136		*/
 	--backgroundsecondaryalt: 	251,243,219;			/*	Background 3/bg_0		-	default:	41,43,47		-	hex:	#292b2f		*/
-	--backgroundtertiary: 		251,243,219;			/*	Background 4/bg_0		-	default:	32,34,37		-	hex:	#202225		*/
+	--backgroundtertiary: 		236,227,204;			/*	Background 4/bg_1		-	default:	32,34,37		-	hex:	#202225		*/
 	--backgroundfloating: 		0,0,0;				/*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c		*/
 }
 
